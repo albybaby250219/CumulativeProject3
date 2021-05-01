@@ -1,0 +1,102 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Comic Sans MS';
+    font-size: 30px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: silver;
+    text-align: center;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+a:link {
+    color: fuchsia;
+    text-decoration: none;
+}
+
+a:visited {
+    color: mediumorchid;
+    text-decoration: none;
+}
+
+.newlink:link {
+    color: blueviolet;
+    float: left;
+}
+
+.list-title {
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    color: magenta;
+}
+
+.searchbox {
+    width: 200px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.searchtext {
+    height: 30px;
+    background-color: white;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.teacherlink:link {
+    color: blueviolet;
+    float: right;
+}
+.updatelink:link{
+    color:blueviolet;
+    margin-right:20px;
+    float:right;
+}
+
+.deletelink:link {
+    color: blueviolet;
+    float: left;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.teacherdetails {
+    max-width: 600px;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: magenta;
+    border-radius: 20px;
+}
+
+.delbutton {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.inputrow {
+    margin-bottom: 20px;
+}
+
+.formwrapper {
+    max-width: 980px;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: magenta;
+    border-radius: 20px;
+}

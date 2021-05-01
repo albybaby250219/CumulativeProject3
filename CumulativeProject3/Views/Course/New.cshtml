@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "New";
+}
+<div id="containershow">
+    <nav>
+        <a class="Courselink" href="/Course/List">Back To Courses</a>
+    </nav>
+    <h2 class="title">New Course</h2>
+    <form method="GET" action="/Course/Create" name="FormNewCourse">
+        <div class="formwrapper">
+            <div class="inputrow">
+                <label for="CourseName">Course Name:</label>
+                <input type="text" id="CourseName" name="CourseName" />
+            </div>
+            <div class="inputrow">
+                <label for="CourseCode">Course Code</label>
+                <input type="text" id="CourseCode" name="CourseCode" />
+            </div>
+            <div class="inputrow">
+                <label for="CourseStartDate">Start Date</label>
+                <input type="text" id="CourseStartDate" name="CourseStartDate" />
+            </div>
+            <div class="inputrow">
+                <label for="CourseFinishDate">Finish Date</label>
+                <input type="text" id="CourseFinishDate" name="CourseFinishDate" />
+            </div>
+            <div class="inputrow">
+                <input type="submit" value="Create Course" />
+            </div>
+        </div>
+    </form>
+</div>
+
+
+

@@ -1,0 +1,19 @@
+﻿@model CumulativeProject3.Models.Course
+
+@{
+    ViewBag.Title = "Show";
+}
+
+
+<div id="containershow">
+    <nav>
+        <a class="Courselink" href="/Course/List">Back To Courses</a>
+        <a class="deletelink" href="/Course/DeleteConfirm/@Model.CourseId">Delete</a>
+    </nav>
+    <h2 class="title">@Model.CourseName</h2>
+    <div class="Coursedetails">
+        <p>The course code is @Model.CourseCode</p>
+        <p>Course starts on @Model.CourseStartDate.ToString("dd-MMM-yyyy")</p>
+        <p>Course finishes on @Model.CourseFinishDate.ToString("dd-MMM-yyyy")</p>
+    </div>
+</div>
